@@ -1,7 +1,34 @@
+@font-face{
+    font-family:"consolas";
+    src: url(../../fonts/consola.ttf) format("true type"),;
+}
+
 body{
     background-color: #E7E9EB;
 }
 
 .m_tbdr{
     border:1px dashed #000;
+}
+
+.m_w10{
+    width:200px;
+}
+.m_w5{
+    width:100px;
+}
+.m_h600{
+   min-height:600px;
+}
+.m_consola{
+    font-family:"consolas","courier new",monospace!important;
+}
+#editablecontent {
+    outline: none;
+    
+}
+.loader{
+    width: 6rem;
+    height: 6rem;
+    border-width: 0.4em;
 }
